@@ -5,21 +5,22 @@
     font-size: 18px;
 }
 body {
-    background: lightyellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgb(225, 241, 241);
+}
+h1{
+    color: rgb(0, 34, 255);
+    text-align: center;
+    font-size: 35px;
 }
 .container {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    border: 256px;
     text-align: center;
     border: 10px solid black;
-    background: black;
+    background: rgb(9, 9, 9);
     border-radius: 5px;
 }
 .keypad{
@@ -30,8 +31,7 @@ body {
 input[type="text"]{
     height: 75px;
     width: 249px;
-    background-color: black;
-    color: white;
+    background-color: rgb(244, 239, 239);
     border: 0px;
     text-align: right;
     font-size: 25px;
@@ -69,14 +69,5 @@ button:active {
     outline: none;
 }
 .highlights{
-    background: red;
-
-}
-h1{
-    color: teal;
-    position: absolute;
-    top: 16%;
-    left: 41.5%;
-    font-weight: 500;
-    font-size: 30px;
+    background: rgb(204, 129, 223);
 }
